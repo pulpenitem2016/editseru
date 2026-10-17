@@ -1,0 +1,19 @@
+{
+  "name": "EditSeru",
+  "short_name": "EditSeru",
+  "description": "Upscale, hapus latar, trace ke vektor, efek, pattern, dan raster sablon. Diproses di perangkatmu.",
+  "lang": "id",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#121211",
+  "theme_color": "#121211",
+  "categories": ["photo", "graphics", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
