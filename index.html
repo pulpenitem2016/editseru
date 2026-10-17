@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>EditSeru</title>
+    <meta name="description" content="Upscale, hapus latar, trace ke vektor, efek, pattern, dan raster sablon. Semua diproses di perangkatmu." />
+    <meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f5f4f1" media="(prefers-color-scheme: light)" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="EditSeru" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <script>
+      try {
+        var t = localStorage.getItem('editseru:theme');
+        if (t === 'dark' || (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
+    <style>
+      html, body { background: #f5f4f1; }
+      @media (prefers-color-scheme: dark) { html, body { background: #121211; } }
+    </style>
+    <script type="module" crossorigin src="./assets/index-BJkvGrUw.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/vendor-react-CzRc2eCF.js">
+    <link rel="modulepreload" crossorigin href="./assets/vendor-ui-icons-taDbS9W1.js">
+    <link rel="modulepreload" crossorigin href="./assets/vendor-paper-BshgD9E9.js">
+    <link rel="stylesheet" crossorigin href="./assets/index-D1kAH2Jx.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
